@@ -53,7 +53,7 @@ library
   other-extensions: NamedFieldPuns OverloadedStrings LambdaCase TupleSections TemplateHaskell QuasiQuotes
   ghc-options: -Wall
   build-depends:
-      aeson >= 2
+      aeson < 1.6 || >=2 && <2.1
     , base >=4.7 && <5
     , bytestring
     , containers
